@@ -7,3 +7,5 @@ To migrate a device simply enterprise wipe the device with the keeps apps option
 The enterprise wipe will generate events on the PC that trigger scheduled tasks. The scheduled tasks will immediately enroll the device.
 There is no impact to the end user.
 
+If you want to upload the logs for troubleshooting you will need to grab a copy of AZCopy.exe https://github.com/Azure/azure-storage-azcopy
+That will copy the logs to Azure Blob Storage.
